@@ -9,6 +9,274 @@
             "thumb": ["image-product-1-thumbnail.jpg", "image-product-2-thumbnail.jpg", "image-product-3-thumbnail.jpg", "image-product-4-thumbnail.jpg"],
             "image": ["image-product-1.jpg", "image-product-2.jpg", "image-product-3.jpg", "image-product-4.jpg"]
         },
-        "discount": 50
+        "discount": 50,
+        "category": "men",
+        "collection": "Fall"
+    },
+    {
+        "id": 2,
+        "title": "Winter Warm Sneakers",
+        "company": "Sneaker Company",
+        "item_desc": "Stay warm and stylish with these winter edition sneakers. Built with an insulated lining to keep your feet warm in the coldest conditions.",
+        "price": 300,
+        "images": {
+            "thumb": ["image-product-5-thumbnail.jpg", "image-product-6-thumbnail.jpg", "image-product-7-thumbnail.jpg", "image-product-8-thumbnail.jpg"],
+            "image": ["image-product-5.jpg", "image-product-6.jpg", "image-product-7.jpg", "image-product-8.jpg"]
+        },
+        "discount": 30,
+        "category": "women",
+        "collection": "Winter"
+    },
+    {
+        "id": 3,
+        "title": "Spring Fresh Sneakers",
+        "company": "Sneaker Company",
+        "item_desc": "Embrace the spring season with these fresh sneakers. Featuring breathable material to keep your feet cool and comfortable.",
+        "price": 220,
+        "images": {
+            "thumb": ["image-product-9-thumbnail.jpg", "image-product-10-thumbnail.jpg", "image-product-11-thumbnail.jpg", "image-product-12-thumbnail.jpg"],
+            "image": ["image-product-9.jpg", "image-product-10.jpg", "image-product-11.jpg", "image-product-12.jpg"]
+        },
+        "discount": 20,
+        "category": "men",
+        "collection": "Spring"
+    },
+    {
+        "id": 4,
+        "title": "Summer Breeze Sneakers",
+        "company": "Sneaker Company",
+        "item_desc": "Perfect for summer outings, these sneakers offer a lightweight and airy design to keep your feet cool during hot days.",
+        "price": 200,
+        "images": {
+            "thumb": ["image-product-13-thumbnail.jpg", "image-product-14-thumbnail.jpg", "image-product-15-thumbnail.jpg", "image-product-16-thumbnail.jpg"],
+            "image": ["image-product-13.jpg", "image-product-14.jpg", "image-product-15.jpg", "image-product-16.jpg"]
+        },
+        "discount": 25,
+        "category": "women",
+        "collection": "Summer"
+    },
+    {
+        "id": 5,
+        "title": "Autumn Classic Sneakers",
+        "company": "Sneaker Company",
+        "item_desc": "Enjoy the autumn season with these classic sneakers. Durable and stylish, perfect for casual wear.",
+        "price": 240,
+        "images": {
+            "thumb": ["image-product-17-thumbnail.jpg", "image-product-18-thumbnail.jpg", "image-product-19-thumbnail.jpg", "image-product-20-thumbnail.jpg"],
+            "image": ["image-product-17.jpg", "image-product-18.jpg", "image-product-19.jpg", "image-product-20.jpg"]
+        },
+        "discount": 35,
+        "category": "men",
+        "collection": "Fall"
+    },
+    {
+        "id": 6,
+        "title": "Winter Explorer Sneakers",
+        "company": "Sneaker Company",
+        "item_desc": "Designed for the urban explorer, these sneakers feature a modern design and insulated lining for winter comfort.",
+        "price": 320,
+        "images": {
+            "thumb": ["image-product-21-thumbnail.jpg", "image-product-22-thumbnail.jpg", "image-product-23-thumbnail.jpg", "image-product-24-thumbnail.jpg"],
+            "image": ["image-product-21.jpg", "image-product-22.jpg", "image-product-23.jpg", "image-product-24.jpg"]
+        },
+        "discount": 28,
+        "category": "women",
+        "collection": "Winter"
+    },
+    {
+        "id": 7,
+        "title": "Spring Blossom Sneakers",
+        "company": "Sneaker Company",
+        "item_desc": "Celebrate the blooming season with these comfortable and stylish sneakers. Perfect for spring walks.",
+        "price": 230,
+        "images": {
+            "thumb": ["image-product-25-thumbnail.jpg", "image-product-26-thumbnail.jpg", "image-product-27-thumbnail.jpg", "image-product-28-thumbnail.jpg"],
+            "image": ["image-product-25.jpg", "image-product-26.jpg", "image-product-27.jpg", "image-product-28.jpg"]
+        },
+        "discount": 22,
+        "category": "men",
+        "collection": "Spring"
+    },
+    {
+        "id": 8,
+        "title": "Summer Light Sneakers",
+        "company": "Sneaker Company",
+        "item_desc": "These lightweight sneakers are perfect for summer activities. Stay cool and comfortable all day long.",
+        "price": 210,
+        "images": {
+            "thumb": ["image-product-29-thumbnail.jpg", "image-product-30-thumbnail.jpg", "image-product-31-thumbnail.jpg", "image-product-32-thumbnail.jpg"],
+            "image": ["image-product-29.jpg", "image-product-30.jpg", "image-product-31.jpg", "image-product-32.jpg"]
+        },
+        "discount": 20,
+        "category": "women",
+        "collection": "Summer"
+    },
+    {
+        "id": 9,
+        "title": "Autumn Comfort Sneakers",
+        "company": "Sneaker Company",
+        "item_desc": "Step into comfort with these autumn edition sneakers. Built for durability and style.",
+        "price": 245,
+        "images": {
+            "thumb": ["image-product-33-thumbnail.jpg", "image-product-34-thumbnail.jpg", "image-product-35-thumbnail.jpg", "image-product-36-thumbnail.jpg"],
+            "image": ["image-product-33.jpg", "image-product-34.jpg", "image-product-35.jpg", "image-product-36.jpg"]
+        },
+        "discount": 33,
+        "category": "men",
+        "collection": "Fall"
+    },
+    {
+        "id": 10,
+        "title": "Winter Cozy Sneakers",
+        "company": "Sneaker Company",
+        "item_desc": "Cozy up with these winter edition sneakers. Designed to keep your feet warm and comfortable.",
+        "price": 310,
+        "images": {
+            "thumb": ["image-product-37-thumbnail.jpg", "image-product-38-thumbnail.jpg", "image-product-39-thumbnail.jpg", "image-product-40-thumbnail.jpg"],
+            "image": ["image-product-37.jpg", "image-product-38.jpg", "image-product-39.jpg", "image-product-40.jpg"]
+        },
+        "discount": 27,
+        "category": "women",
+        "collection": "Winter"
+    },
+    {
+        "id": 11,
+        "title": "Spring Breeze Sneakers",
+        "company": "Sneaker Company",
+        "item_desc": "These spring edition sneakers offer a breathable design to keep your feet cool and comfortable.",
+        "price": 225,
+        "images": {
+            "thumb": ["image-product-41-thumbnail.jpg", "image-product-42-thumbnail.jpg", "image-product-43-thumbnail.jpg", "image-product-44-thumbnail.jpg"],
+            "image": ["image-product-41.jpg", "image-product-42.jpg", "image-product-43.jpg", "image-product-44.jpg"]
+        },
+        "discount": 24,
+        "category": "men",
+        "collection": "Spring"
+    },
+    {
+        "id": 12,
+        "title": "Summer Vibes Sneakers",
+        "company": "Sneaker Company",
+        "item_desc": "Capture the essence of summer with these vibrant sneakers. Lightweight and comfortable for all your summer activities.",
+        "price": 215,
+        "images": {
+            "thumb": ["image-product-45-thumbnail.jpg", "image-product-46-thumbnail.jpg", "image-product-47-thumbnail.jpg", "image-product-48-thumbnail.jpg"],
+            "image": ["image-product-45.jpg", "image-product-46.jpg", "image-product-47.jpg", "image-product-48.jpg"]
+        },
+        "discount": 23,
+        "category": "women",
+        "collection": "Summer"
+    },
+    {
+        "id": 13,
+        "title": "Autumn Adventure Sneakers",
+        "company": "Sneaker Company",
+        "item_desc": "Perfect for autumn adventures, these sneakers offer durability and style for the season.",
+        "price": 255,
+        "images": {
+            "thumb": ["image-product-49-thumbnail.jpg", "image-product-50-thumbnail.jpg", "image-product-51-thumbnail.jpg", "image-product-52-thumbnail.jpg"],
+            "image": ["image-product-49.jpg", "image-product-50.jpg", "image-product-51.jpg", "image-product-52.jpg"]
+        },
+        "discount": 26,
+        "category": "men",
+        "collection": "Fall"
+    },
+    {
+        "id": 14,
+        "title": "Winter Frost Sneakers",
+        "company": "Sneaker Company",
+        "item_desc": "Stay warm and stylish with these frost-resistant winter sneakers. Ideal for snowy conditions.",
+        "price": 290,
+        "images": {
+            "thumb": ["image-product-53-thumbnail.jpg", "image-product-54-thumbnail.jpg", "image-product-55-thumbnail.jpg", "image-product-56-thumbnail.jpg"],
+            "image": ["image-product-53.jpg", "image-product-54.jpg", "image-product-55.jpg", "image-product-56.jpg"]
+        },
+        "discount": 28,
+        "category": "men",
+        "collection": "Winter"
+    },
+    {
+        "id": 15,
+        "title": "Spring Bloom Sneakers",
+        "company": "Sneaker Company",
+        "item_desc": "Celebrate the spring bloom with these vibrant and lightweight sneakers. Perfect for outdoor activities.",
+        "price": 210,
+        "images": {
+            "thumb": ["image-product-57-thumbnail.jpg", "image-product-58-thumbnail.jpg", "image-product-59-thumbnail.jpg", "image-product-60-thumbnail.jpg"],
+            "image": ["image-product-57.jpg", "image-product-58.jpg", "image-product-59.jpg", "image-product-60.jpg"]
+        },
+        "discount": 20,
+        "category": "women",
+        "collection": "Spring"
+    },
+    {
+        "id": 16,
+        "title": "Summer Adventure Sneakers",
+        "company": "Sneaker Company",
+        "item_desc": "Embark on summer adventures with these durable and breathable sneakers. Perfect for beach days.",
+        "price": 220,
+        "images": {
+            "thumb": ["image-product-61-thumbnail.jpg", "image-product-62-thumbnail.jpg", "image-product-63-thumbnail.jpg", "image-product-64-thumbnail.jpg"],
+            "image": ["image-product-61.jpg", "image-product-62.jpg", "image-product-63.jpg", "image-product-64.jpg"]
+        },
+        "discount": 25,
+        "category": "men",
+        "collection": "Summer"
+    },
+    {
+        "id": 17,
+        "title": "Autumn Trail Sneakers",
+        "company": "Sneaker Company",
+        "item_desc": "Navigate autumn trails with ease in these rugged and stylish sneakers. Built for outdoor enthusiasts.",
+        "price": 265,
+        "images": {
+            "thumb": ["image-product-65-thumbnail.jpg", "image-product-66-thumbnail.jpg", "image-product-67-thumbnail.jpg", "image-product-68-thumbnail.jpg"],
+            "image": ["image-product-65.jpg", "image-product-66.jpg", "image-product-67.jpg", "image-product-68.jpg"]
+        },
+        "discount": 30,
+        "category": "women",
+        "collection": "Fall"
+    },
+    {
+        "id": 18,
+        "title": "Winter Blizzard Sneakers",
+        "company": "Sneaker Company",
+        "item_desc": "Conquer winter blizzards with these heavy-duty sneakers. Designed for extreme weather conditions.",
+        "price": 320,
+        "images": {
+            "thumb": ["image-product-69-thumbnail.jpg", "image-product-70-thumbnail.jpg", "image-product-71-thumbnail.jpg", "image-product-72-thumbnail.jpg"],
+            "image": ["image-product-69.jpg", "image-product-70.jpg", "image-product-71.jpg", "image-product-72.jpg"]
+        },
+        "discount": 35,
+        "category": "men",
+        "collection": "Winter"
+    },
+    {
+        "id": 19,
+        "title": "Spring Meadow Sneakers",
+        "company": "Sneaker Company",
+        "item_desc": "Explore the spring meadows in these lightweight and comfortable sneakers. Ideal for nature walks.",
+        "price": 200,
+        "images": {
+            "thumb": ["image-product-73-thumbnail.jpg", "image-product-74-thumbnail.jpg", "image-product-75-thumbnail.jpg", "image-product-76-thumbnail.jpg"],
+            "image": ["image-product-73.jpg", "image-product-74.jpg", "image-product-75.jpg", "image-product-76.jpg"]
+        },
+        "discount": 20,
+        "category": "women",
+        "collection": "Spring"
+    },
+    {
+        "id": 20,
+        "title": "Summer Sunset Sneakers",
+        "company": "Sneaker Company",
+        "item_desc": "Enjoy summer sunsets in style with these lightweight and breathable sneakers. Perfect for evening strolls.",
+        "price": 210,
+        "images": {
+            "thumb": ["image-product-77-thumbnail.jpg", "image-product-78-thumbnail.jpg", "image-product-79-thumbnail.jpg", "image-product-80-thumbnail.jpg"],
+            "image": ["image-product-77.jpg", "image-product-78.jpg", "image-product-79.jpg", "image-product-80.jpg"]
+        },
+        "discount": 22,
+        "category": "men",
+        "collection": "Summer"
     }
 ]
