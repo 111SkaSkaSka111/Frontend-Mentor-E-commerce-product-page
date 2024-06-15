@@ -11,7 +11,7 @@ const Lightbox = ({ openLightbox, setOpenLightbox, imgLightbox, handlePrevImageL
                 </div>
             </div>
             <div className="large-image-lightbox">
-                <img src={`/images/${imgLightbox}`} alt="" className="large-image" />
+                <img src={`/Frontend-Mentor-E-commerce-product-page/images/${imgLightbox}`} alt="" className="large-image" />
                 <div className="prev-next">
                     <div onClick={handlePrevImageLightbox} className="btn-prev">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256">
@@ -28,7 +28,7 @@ const Lightbox = ({ openLightbox, setOpenLightbox, imgLightbox, handlePrevImageL
             <div className="thumbnail-lightbox">
                 {thumbnails?.map((thumb, index) => (
                     <div className={`thumb-image ${index === imageLightbox ? "active" : ""}`} key={index} onClick={() => handleImageLightbox(index)}>
-                        <img src={`/images/${thumb}`} alt="" className={`thumbnail-image ${index === imageLightbox ? "active" : ""}`} />
+                        <img src={`/Frontend-Mentor-E-commerce-product-page/images/${thumb}`} alt="" className={`thumbnail-image ${index === imageLightbox ? "active" : ""}`} />
                     </div>
                 ))}
             </div>

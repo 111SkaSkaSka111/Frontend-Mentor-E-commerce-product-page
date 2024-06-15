@@ -66,6 +66,7 @@ function App() {
     const handleCart = () => {
         setAddToCart((prevItem) => {
             const existingItem = prevItem.find((item) => item.id === data[0].id);
+
             if (quantity === 0) {
                 return [...prevItem];
             } else if (existingItem) {
