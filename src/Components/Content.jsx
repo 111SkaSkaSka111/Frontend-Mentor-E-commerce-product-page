@@ -5,7 +5,7 @@ const Content = ({ data, handleCart, largeImage, handleLargeImage, handleOpenLig
         <div className="content">
             <div className="img">
                 <div className="img-large">
-                    <img onClick={handleOpenLightbox} src={`/images/${images}`} alt="" className="large-img" />
+                    <img onClick={handleOpenLightbox} src={`/Frontend-Mentor-E-commerce-product-page/images/${images}`} alt="" className="large-img" />
                     <div className="prev-next">
                         <div onClick={handlePrevImage} className="btn-prev">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256">
@@ -22,7 +22,7 @@ const Content = ({ data, handleCart, largeImage, handleLargeImage, handleOpenLig
                 <div className="thumbnail">
                     {thumbnails?.map((thumb, index) => (
                         <div key={index} className={`img-thumb ${index === largeImage ? "active" : ""}`}>
-                            <img onClick={() => handleLargeImage(index)} src={`/images/${thumb}`} alt="" className={`thumbnail-img ${index === largeImage ? "active" : ""}`} />
+                            <img onClick={() => handleLargeImage(index)} src={`/Frontend-Mentor-E-commerce-product-page/images/${thumb}`} alt="" className={`thumbnail-img ${index === largeImage ? "active" : ""}`} />
                         </div>
                     ))}
                 </div>

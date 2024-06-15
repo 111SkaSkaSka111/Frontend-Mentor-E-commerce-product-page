@@ -67,7 +67,7 @@ function App() {
         setAddToCart((prevItem) => {
             const existingItem = prevItem.find((item) => item.id === data[0].id);
             if (quantity === 0) {
-                return [];
+                return [...prevItem];
             } else if (existingItem) {
                 return prevItem.map((item) => (item.id === data[0].id ? { ...item, quantity: item.quantity + quantity, new_price: discountPrice } : item));
             } else {

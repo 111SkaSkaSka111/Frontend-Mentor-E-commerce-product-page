@@ -34,7 +34,7 @@ const Navbar = ({ quantity, handleHamburger, data, handleDelete, handleOpenCart 
                             {data ? (
                                 <>
                                     <div className="card-img">
-                                        <img src={`/images/${data?.images?.thumb[0]}`} alt="" />
+                                        <img src={`/Frontend-Mentor-E-commerce-product-page/images/${data?.images?.thumb[0]}`} alt="" />
                                     </div>
                                     <div className="card-text">
                                         <h3>{data?.title}</h3>
@@ -63,7 +63,7 @@ const Navbar = ({ quantity, handleHamburger, data, handleDelete, handleOpenCart 
                         )}
                     </div>
                 </div>
-                <img src="/images/image-avatar.png" alt="" className="avatar" />
+                <img src="/Frontend-Mentor-E-commerce-product-page/images/image-avatar.png" alt="" className="avatar" />
             </div>
         </nav>
     );
