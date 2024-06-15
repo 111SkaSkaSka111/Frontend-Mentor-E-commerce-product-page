@@ -9,7 +9,7 @@ const Navbar = ({ quantity, handleHamburger, data, handleDelete, handleOpenCart 
                     <span></span>
                     <span></span>
                 </div>
-                <object data="/images/logo.svg" type="image/svg+xml" className="svg-logo"></object>
+                <object data="/Frontend-Mentor-E-commerce-product-page/images/logo.svg" type="image/svg+xml" className="svg-logo"></object>
                 <ul>
                     <li>Collections</li>
                     <li>Men</li>
